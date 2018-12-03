@@ -1,0 +1,196 @@
+/* ======================================================================= */
+/* ========================Reset CSS====================================== */
+/* ======================================================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ======================================================================= */
+/* ======================================================================= */
+
+body{
+    background-color: white;   
+}
+
+a{
+    color: white;
+}
+
+.en_Ligne li{    
+    display: inline;    
+    padding: 20px;    
+ }
+
+
+.centrer{
+    text-align: center; /*Aligner tous les éléments*/
+    margin-left: auto; /* margin (left et right) en auto pour placer automatiquement*/
+    margin-right: auto;
+    /* width: 1024px; Largeur totale */
+    
+    
+}
+
+#En_tete{
+    /* background:rgb(12, 12, 56); */
+    background: #ff5722;/*#4407a7;*/
+    height: 200px;
+    color: #ddd;
+   
+}
+
+#Ma_photo{
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   border: 5px solid #ddd;
+   padding: 0px;
+   margin-top: -80px;
+
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 30px;
+    font-style: italic;   
+}
+.titre{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+}
+
+#presentation{
+    color: white;
+    font-family: 'Prata', serif;
+    font-size: 25px;
+   background:#ff4409; /*#001a8b /* rgb(15, 15, 61);*/
+    /* background: linear-gradient( rgb(0, 0, 22),
+                                 rgb(3, 3, 61), 
+                                 rgb(0, 0, 22)); */
+
+}
+
+#coordonnees{
+    background-color: #ee3900; /*rgb(18, 13, 83);*/
+    height: 100px;
+    color: #ddd;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+}
+
+#menu{
+    /* border-radius: 10px 0px 20px 0px; gauche - droite-droit_bas-gauche_bas */
+    /* position: relative; */
+    
+    color: white;
+    font-family: 'Prata', serif;
+    font-size: 25px;
+    background-color:#d53300; /*rgb(1, 1, 99);*/
+    /* height: 50px; */
+    /* width: 600px; */
+    /* margin-top: 10px; */
+    /* margin-left: 200px; */
+    
+}
+#diagramme2{
+    height: 500px; 
+   }
+
+#competences{
+    /* text-align: center; */
+    /* margin-top: 10px;
+    top: 10px;
+     margin-left: 100px;   
+    background-color: brown; */
+    
+    /*border-radius: 200px; /**/ /* ici*/
+   /* height: 400px; /**//*ici*/
+   /* width: 400px;/**//*et ici servent à faire un cercle*/
+   display: flex;
+
+}
+
+.bordure{
+    /* width: 500px; */
+    padding: 35px 20px;
+    line-height: 1.5em;
+    color: white;
+    background-color: #E9383F;
+    box-shadow : 15px 10px 12px  #000000 ;
+    border-radius: 20px;
+    /* margin-left: auto;
+    margin-right: auto; */
+   
+}
+
+.jutifier_Gauche{
+   float: left !important;
+}
+
+#formations{
+    display: flex;  
+    /* justify-content: center; */
+    justify-content : space-around;
+    
+    /* border-radius: 20px;
+    background-color: green;
+    height: 300px; 
+    margin-top: 10px; */
+}
+
+#experiences{
+    border-radius: 20px;
+    background-color: yellow;
+    height: 300px;
+    margin-top: 10px;
+}
+
+#autres{
+    margin-top: 10px;
+    background-color: grey;
+    height: 50px;
+}
