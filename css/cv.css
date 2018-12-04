@@ -73,7 +73,7 @@ a{
 #En_tete{
     /* background:rgb(12, 12, 56); */
     background: #ff5722;/*#4407a7;*/
-    height: 200px;
+    height: 150px;
     color: #ddd;
    
 }
@@ -87,10 +87,13 @@ a{
    margin-top: -80px;
 
 }
-
+/* p,span{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+} */
 h1{
     font-size: 50px;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
 
 h2{
@@ -98,15 +101,21 @@ h2{
     font-style: italic;   
 }
 .titre{
-    font-family: 'Anton', sans-serif;
-    font-family: 'Paytone One', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
+    font-weight: bolder;
 }
 
 #presentation{
     color: white;
-    font-family: 'Prata', serif;
-    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Roboto', sans-serif;
+
+
+    font-size: 20px;
    background:#ff4409; /*#001a8b /* rgb(15, 15, 61);*/
     /* background: linear-gradient( rgb(0, 0, 22),
                                  rgb(3, 3, 61), 
@@ -118,7 +127,9 @@ h2{
     background-color: #ee3900; /*rgb(18, 13, 83);*/
     height: 100px;
     color: #ddd;
-    font-family: 'Prata', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
@@ -127,7 +138,8 @@ h2{
     /* position: relative; */
     
     color: white;
-    font-family: 'Prata', serif;
+    /* font-family: 'Open Sans', sans-serif;
+    font-family: 'Alfa Slab One', cursive; */
     font-size: 25px;
     background-color:#d53300; /*rgb(1, 1, 99);*/
     /* height: 50px; */
@@ -151,6 +163,9 @@ h2{
    /* height: 400px; /**//*ici*/
    /* width: 400px;/**//*et ici servent à faire un cercle*/
    display: flex;
+   padding: 10px 5px;   
+   box-shadow : 15px 10px 12px  #000000 ;
+   /* border-radius: 20px; */
 
 }
 
@@ -175,6 +190,9 @@ h2{
     display: flex;  
     /* justify-content: center; */
     justify-content : space-around;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Roboto', sans-serif;
     
     /* border-radius: 20px;
     background-color: green;

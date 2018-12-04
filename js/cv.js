@@ -59,6 +59,7 @@ var options1 = {
     colorSet : "color1",
     title: {
         text: "Compétences"
+        
     },
     subtitles: [{
         text: "Informatique"
