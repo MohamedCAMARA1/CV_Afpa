@@ -42,6 +42,7 @@
 //====================================================================
 //====================================================================
 ////===========================En jQuery==============================
+
 function Info () {
     CanvasJS.addColorSet("color1",
     [//colorSet Array
@@ -183,7 +184,32 @@ function Transverses () {
 Bureau();
 Info();
 Transverses();
+//====================================
+//=========Transition======================
+//========================================
+$(document).ready( function () {
+    $('#menu_compe').click(function() {
+      $('html,body').animate({scrollTop: $("#competences").offset().top}, 'slow'      );
+    });  
+ })
 
+ $(document).ready( function () {
+    $('#menu_forma').click(function() {
+      $('html,body').animate({scrollTop: $("#formations").offset().top}, 'slow'      );
+    });  
+ })
+
+ $(document).ready( function () {
+    $('#menu_expe').click(function() {
+      $('html,body').animate({scrollTop: $("#experiences").offset().top}, 'slow'      );
+    });  
+ })
+
+ $(document).ready( function () {
+    $('#menu_autres').click(function() {
+      $('html,body').animate({scrollTop: $("#autres").offset().top}, 'slow');
+    });  
+ })
     
     // const dataSource = {
     //     "chart": {
